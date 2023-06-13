@@ -8,7 +8,7 @@
 
 import React from "react";
 import { ImArrowRight } from "react-icons/im";
-// import AnimatedText from "react-animated-text-content";
+import AnimatedText from "react-animated-text-content";
 import { BsExclamationCircleFill } from "react-icons/bs";
 import Popover from "react-bootstrap/Popover";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
@@ -124,8 +124,8 @@ class Professor extends React.Component<ProfessorProps, ProfessorState> {
         return (
             <div className="tutorialGuide">
                 <div className="textbox" id="textbox">
-                    <p>{this.state.text[this.props.stageCount]}</p>
-                    {/* <AnimatedText
+                    {/* <p>{this.state.text[this.props.stageCount]}</p> */}
+                    <AnimatedText
                         type="chars" // animate words or chars
                         animation={{
                             x: "200px",
@@ -137,13 +137,13 @@ class Professor extends React.Component<ProfessorProps, ProfessorState> {
                         interval={0.04} //controls the text speed
                         duration={0.4} //controls the text speed
                         tag="p"
-                        className="animated-paragraph"
+                        className="-paragraph"
                         includeWhiteSpaces
                         threshold={0.1}
                         rootMargin="20%"
                     >
                         {this.state.text[this.props.stageCount]}
-                    </AnimatedText> */}
+                    </AnimatedText>
                     <button
                         className="btn arrowbtn"
                         onClick={this.props.onClick}
