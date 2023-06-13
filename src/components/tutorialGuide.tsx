@@ -4,11 +4,11 @@
 
 //The two libraries used for the text animation and icons are:
 //  yarn add react-icons
-//  yarn add react-animated-text-content
+//  yarn add react-animated-text-content - this library ended up being out of date
 
 import React from "react";
 import { ImArrowRight } from "react-icons/im";
-import AnimatedText from "react-animated-text-content";
+//import AnimatedText from "react-animated-text-content";
 import { BsExclamationCircleFill } from "react-icons/bs";
 import Popover from "react-bootstrap/Popover";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
@@ -124,8 +124,9 @@ class Professor extends React.Component<ProfessorProps, ProfessorState> {
         return (
             <div className="tutorialGuide">
                 <div className="textbox" id="textbox">
-                    {/* <p>{this.state.text[this.props.stageCount]}</p> */}
-                    <AnimatedText
+                    <p>{this.state.text[this.props.stageCount]}</p>
+                    {/* Attempted to animate the text but the library we used was out of date and messed up deployment. We are removing but hope one day it might be a thing! */}
+                    {/* <AnimatedText
                         type="chars" // animate words or chars
                         animation={{
                             x: "200px",
@@ -143,7 +144,7 @@ class Professor extends React.Component<ProfessorProps, ProfessorState> {
                         rootMargin="20%"
                     >
                         {this.state.text[this.props.stageCount]}
-                    </AnimatedText>
+                    </AnimatedText> */}
                     <button
                         className="btn arrowbtn"
                         onClick={this.props.onClick}

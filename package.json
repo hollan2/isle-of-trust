@@ -26,8 +26,7 @@
         "typescript": "^4.7.3",
         "use-image": "^1.0.12",
         "vite-plugin-require": "^1.0.1",
-        "web-vitals": "^2.1.4",
-        "react-animated-text-content": "^1.0.1"
+        "web-vitals": "^2.1.4"
     },
     "devDependencies": {
         "@types/react-reconciler": "^0.28.0",
