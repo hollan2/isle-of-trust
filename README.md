@@ -7,11 +7,7 @@ https://prisoners-dilemma.gitlab.io/Release/
 
 ## Getting started
 
-Clone the repository to your local machine:
-
-```shell
-git clone https://gitlab.com/Prisoners-Dilemma/Release.git
-```
+Clone the repository to your local machine.
 
 You will also need the following installed:
 
@@ -39,6 +35,8 @@ yarn start
 ```
 
 The application will be hosted on http://localhost:3000/
+
+For actual deployment, we used Vercel and configured it with a custom domain. Just hook up your Github on Vercel! https://vercel.com/
 
 ## Formatting
 
