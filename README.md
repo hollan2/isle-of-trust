@@ -2,9 +2,6 @@
 
 The Isle of Trust is a react based web game designed to invoke deep thoughts on topics such as morality, influence and the greater good.
 
-You can view the stable application deployed from main here:
-https://prisoners-dilemma.gitlab.io/Release/
-
 ## Getting started
 
 Clone the repository to your local machine.
