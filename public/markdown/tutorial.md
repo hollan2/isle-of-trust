@@ -10,9 +10,12 @@ The year is 1950 and you've been swept to the Isle of Trust. You and your neighb
 
 ### Gameplay
 
-|              | A - Together | A - Solo    |
-|--------------|--------------|-------------|
-| B - Together | A: +1 B: +1  | A: +3 B: -2 |
-| B - Solo     | A: -2 B: +3  | A: -1 B: -1 | 
+Prisoner's Dilemma table:
+-   A and B work together -> A: +1, B: +1
+-   A works solo, B works together -> A: +3, B: -2
+-   A and B work solo -> A: -1, B: -1
+-   A works together and B works solo -> A: -2, B: +3
 
 Match means you're promising to do what your neighbor promises to do. For example, if you promise Match and your neighbor, Bob, promises Together, your promise will be interpretted as Together.
+
+I hope you enjoy the game :D
